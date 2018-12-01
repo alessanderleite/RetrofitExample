@@ -1,6 +1,9 @@
 package com.example.alessander.retrofitexample;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Hero {
+    @SerializedName("name")
     private String name;
     private String realname;
     private String team;
